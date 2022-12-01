@@ -1,0 +1,32 @@
+.par{
+	min-height: 100px;
+	max-height: 200px;
+	width: 100px;
+	border: 2px solid blue;
+	/*overflow: hidden;*/
+	/*overflow: visible;*/
+	/*overflow: scroll; */
+	/*overflow-x: scroll;*/
+	overflow: auto;
+} 
+.par1{
+	height:150px ;
+	width: 50px;
+	font-size: 100px;
+	border: 2px solid blue;
+} 
+.par2{
+	overflow-x: scroll;
+} 
+.img{
+	width: 100%;
+	max-width: 100px;
+	height: 100px;
+} 
+
+.img-cont{
+	width: 100px;
+	border: 2px solid blue;
+	height: 100px; 
+	overflow-x:scroll;
+} 
