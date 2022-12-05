@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-home{
+    display: flex;
+    
+}
+.logo{
+    padding: 0;
+}
+.nav-list-home{
+    display: flex;
+    /* background-color: lightblue; */
+    width: 50%;
+    height:5rem;
+    padding-left: 4vh;
+    align-items: center;
+}
+.nav-list-home li{
+    list-style-type: none;
+    padding: 20px 30px;
+    
+}
+.nav-list-home li a{
+    text-decoration: none;
+    color:black;
+
+}
+.nav-list-home li a:hover{
+    color:blue;
+}
+.rightNav-home{
+    width:50%;
+    /* background-color: lightblue; */
+    height: 5rem;
+    text-align: right;
+    padding-right: 5vh;
+}
